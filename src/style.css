@@ -32,3 +32,7 @@ h2 {
   text-align: right;
   font-size: 65px;
 }
+.btn-light:hover {
+  opacity: 90%;
+  border-radius: 6px;
+}

@@ -8,6 +8,9 @@ import "./assets/img/4geeks.ico";
 window.onload = () => {
   //write your code here
 
+  const shuffleCardBtn = document.querySelector("#shufflecardbtn");
+  shuffleCardBtn.addEventListener("click", randomCard);
+
   // Created a random card
   const random = randomCard();
 
